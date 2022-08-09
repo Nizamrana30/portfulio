@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glozzom</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.1/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    
+    <style>
+        
+#header-body{
+    background: url('https://images.pexels.com/photos/753626/pexels-photo-753626.jpeg?cs=srgb&dl=pexels-julius-silver-753626.jpg&fm=jpg');
+    background-size: cover;
+background-attachment: fixed;
+margin-top: 81px;}
+.overly{
+        background: rgba(0,0,0,0.7)
+    }
+.navbar-nav li a {
+    font-size: 17px;
+    font-family: arial;
+    margin-left: 10px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+}
+.navbar-brand span{
+    font-size: 30px;
+    color: orange;
+}
+.navbar-brand h1{
+    font-size: 30px;
+    color: red;
+}
+.col-md-6.text-center img {
+    border-radius: 3px;
+    border: 0px solid #5f7061;
+    box-shadow: 2px 1px 7px 1px #333;}
+nav.navbar{
+        background: #a1428c;
+    
+}
+a.navbar-brand {
+    text-decoration: none;
+}
+.hi-there {
+    font-size: 80px;
+    color: #a2e3bc;
+    font-family: arial;
+}
+span.Nizam {
+    font-family: arial;
+    color: #e764c5;
+}
+.font-title {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: arial black;
+}
+.card.my-5.amar-block {
+    border-radius: 0px;
+    box-shadow: 0px 0px 6px 1px #888;
+}
+.navbar li a:hover{
+   background:lightblue;
+    
+}
+.display-1.about-me.text-center {
+    text-transform: uppercase;
+    font-size: 44px;
+    font-family: arial black;
+    color: cadetblue;
+    border-bottom: 2px dashed #333;
+}
+.py-2.education {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: arial black;
+
+}
+.py-2.education span {
+    border-bottom: 2px solid #333;
+}
+.school{
+    color: #444;
+}
+.leadami{
+    font-family: arial;
+    font-size: 14px;
+    color: #777;
+}
+h6.leada{
+    font-family: arial
+}
+#about-me{
+    background: fffff
+}
+.card1{border-radius: 0px;
+box-shadow: 5px 6px 8px -5px #333;}
+.card1:hover{
+    background: #ddc7c7c7;
+    color: black;
+}
+.leadami:hover{
+    color: black;
+}
+.meet-me{
+    font-family: arial black;
+    border-bottom: 2px solid #332
+}
+.nizampic{
+    margin-top: -50px
+}
+.card2{border-radius: 0px;
+box-shadow: 5px 5px 8px -5px #333;
+transition: .5s}
+.card2:hover{
+    background: #3292a6;
+    color: white;
+}
+.office-img {
+    box-shadow: 8px 8px 5px -5px #333;
+    transition: 1s
+}
+.office-img:hover {
+    transform: rotatey(170deg);}
+
+    .display.myself {
+    background: #e2e9f3d9;
+}
+.myskill span{
+    font-family: arial black;
+    border-bottom: 2px solid #333;
+}
+.progress{background: #fff}
+span.html {
+    text-transform: uppercase;
+    font-family: arial;
+    color: black;
+}
+span.skill-parcentace {
+    text-transform: uppercase;
+    font-family: arial;
+    color: black;
+}
+.fa-brands{
+    font-size: 33px
+}
+.service{
+    font-size: 3rem;
+    font-family: arial black;
+}
+.servicecol{
+    font-size: 40px;
+}
+h2.services-offer {
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+
+i.servicecol.fa-solid.fa-desktop {
+    color: #8355bf;
+}
+.card.text-center {
+    border-radius: 0px;
+     box-shadow: 5px 6px 8px -5px #333;
+    border:0px;
+    background: #f8f9fa;
+    transition: .6s
+}
+.card.text-center:hover{
+    background: beige;
+}
+p.small-p {
+    color: #625454db;
+}
+.photo-section{
+    background: #e2e9f3d9;
+}
+.nizamphoto{
+    height: 200px;
+    width: 100%
+}
+.photo.text-center{
+    font-family: arial black;
+    text-transform: uppercase;
+    font-size: 36px
+}
+.lead-bangla{
+    font-size: 20px;
+    font-family: arial;}
+.video-player{
+    color: white;
+    text-decoration: none;      
+}
+.card-video{
+    border-radius: 1px;
+    border: none;
+}
+.video-row{
+    background: #e2e9f3d9;
+    box-shadow: 5px 6px 8px -5px #333;
+}
+.youtube1{
+    color: red;
+    font-size: 50px;
+    
+}
+.youtube-card{
+    background: url('https://images.pexels.com/photos/460672/pexels-photo-460672.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-size: cover;
+    background-attachment: fixed;
+}
+#contact-section{
+    background: #e2e9f3d9;
+    margin-top: 50px
+}
+.contact-button{
+    background:#3292a6 
+}
+#footer{
+    background: #333;
+}
+.fa-phone, .fa-envelope{
+    font-size: 30px;}
+.nizam-email{
+    text-transform: none}
+.footer-icon{
+    padding-right: 20px;
+    margin-top: 25px;
+}
+.footer.py-3{
+    background: black
+}
+        .img-logo{
+            max-width: 150px;
+        }
+.designer-nizam{
+    text-decoration: none;
+    font-family: arial;
+    color: orange
+}
+        .background-img-colum{max-height: 440px
+            
+        }
+.contactme{
+    font-family: arial;
+}
+    
+@media(max-width:578px){
+    .hi-there{
+        font-size: 30px;
+    }
+}
+
+
+@media(max-width:577px){
+    .Nizam{
+        font-size: 30px;
+    }
+}
+@media(min-width:578px){
+    .Nizam{
+        font-size:50px;
+    }
+
+}
+    @media(min-width:768px){
+    .Nizam{
+        font-size: 40px;
+    }
+         @media(min-width:991px){
+    .Nizam{
+        font-size: 48px;
+    }
+    </style>
+    
+    
+</head>
+<body>
+<nav class="navbar navbar-expand-md py-1 fixed-top">
+    <div class="container">
+        <a href="#header-body" class="navbar-brand d-inline">
+         <img class="img-logo mb-1" src="img/logo.png" alt="">
+       </a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#collapse1"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="collapse1">
+        <ul class="navbar-nav ms-auto ">
+            <li class="nav-item"><a class="nav-link"  href="#header-body">Home</a></li>
+            <li class="nav-item"><a class="nav-link"  href="#about-me">About me</a></li>
+            <li class="nav-item"><a class="nav-link" href="#service-section">Service</a></li>
+            <li class="nav-item"><a class="nav-link"  href="#photo-section">Photo Galley</a></li>
+            <li class="nav-item"><a class="nav-link"  href="#contact-section">Contact Us</a></li>
+        </ul>
+    </div>
+    </div>
+</nav>
+ <section id="header-body" class="text-light">
+     <div class="overly">
+       <div class="container">
+            <div class="row py-5">
+            <div class="col-md-6">
+                 <h1 class="hi-there">Hi There,</h1>
+                 <span class="Nizam">
+                     I am Nizam Ahmmad
+                 </span>
+                 <p class="lead">I am full stack Web Designer and Web developer. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, obcaecati.</p>
+                <a href="#my-skill" class="btn btn-outline-success px-3 mt-5"><i  class="fa-solid fa-arrow-right me-2"> </i>Read More...</a>
+           </div>
+           <div class="col-md-6 mt-4 mt-md-0 text-center"><img class="background-img-colum" src="https://images.pexels.com/photos/4079293/pexels-photo-4079293.jpeg?cs=srgb&dl=pexels-anastasia-shuraeva-4079293.jpg&fm=jpg" alt="">
+         </div>
+        </div>
+       </div>
+      </div>
+ </section>
+ <section>
+     <div class="container">
+         <div class="card my-5 amar-block">
+           <div class="card-body">
+               <div class="row">
+                 <div class="col-md-6">
+                     <div class="card">
+                         <img src="https://images.pexels.com/photos/3755755/pexels-photo-3755755.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                     </div>
+                 </div>
+                 <div class="col-md-6 mt-4 mt-md-0">
+                     <div class="font-title">
+                             Let's <br>
+                              Introduce about <br>
+                              myself
+                         </div>
+                         <p class="lead">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor perferendis odio voluptas quaerat aliquid dolorum, molestiae, vero officia perspiciatis nostrum. Nulla pariatur, vitae totam a voluptate inventore architecto accusantium. Magnam.
+                      </p>
+                      <button class="btn btn-primary mt-2 px-4">
+                          Download CV
+                      </button>
+                 </div>
+              </div>
+           </div>
+         </div>
+     </div>
+ </section>
+ <section id="about-me">
+     <div class="container">
+         <div class="display-1 about-me text-center">
+             about me
+         </div>
+         <div class="mt-3 py-2 education bg-light">
+             <span>My education</span>
+         </div>
+         <div class="row py-4">
+             <div class="col-md-4">
+                 <div class="card card1">
+                     <div class="card-header">
+                         <h2 class="text-center">Junior School Certificate</h2>
+                     </div>
+                     <div class="card-body">
+                         <h6 class="leada">Panchgoan Adarsha High School <h5 class="school h6">|2018</h5></h6>
+                         <p class="leadami">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore ipsa velit repellendus eius odit repudiandae perferendis consequatur earum accusamus atque.</p>
+                     </div>
+                 </div>
+             </div>
+             <div class="col-md-4 my-3 my-md-0">
+                 <div class="card card1">
+                     <div class="card-header">
+                         <h2 class="text-center">Secondary School Certificate</h2>
+                     </div>
+                     <div class="card-body">
+                         <h6 class="leada">Panchgoan Adarsha High School <h5 class="school h6">|2019-2020</h5></h6>
+                         <p class="leadami">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore ipsa velit repellendus eius odit repudiandae perferendis consequatur earum accusamus atque.</p>
+                     </div>
+                 </div>
+             </div>
+             <div class="col-md-4">
+                 <div class="card card1">
+                     <div class="card-header">
+                         <h2 class="text-center">Higher Secondary School Certificate</h2>
+                     </div>
+                     <div class="card-body">
+                         <h6 class="leada">Kazi Mohammad Shafiul islam college <h5 class="school h6">|2022-2023</h5></h6>
+                         <p class="leadami text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore ipsa velit repellendus eius odit repudiandae perferendis consequatur earum accusamus atque.</p>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+         <div class="display myself pb-4">
+           <div class="container">
+            <h1 class="text-center meet-me ">
+                My Self
+            </h1>
+             <div class="row my-5">
+                 <div class="col-md-6">
+                     <div class="row">
+                         <div class="col-md-6">
+                            <div class="card card2">
+                             <div class="card-body text-center">
+                                <img class="nizampic rounded-circle" style="max-width: 100px; height: 100px;" src="img/IMG_20220622_064036.jpg" alt="">
+                                 <h1 >Nizam Ahmmad</h1>
+                                 <h5 class="border-buttom">Web designer</h5>
+                                 <p class="lead">
+                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, enim sunt, voluptatum totam voluptatem asperiores.
+                                 </p>
+                             </div>
+                          </div>
+                         </div>
+                         <div class="col-md-6 mt-5 mt-md-0">
+                              <div class="card card2">
+                             <div class="card-body text-center">
+                                <img class="nizampic rounded-circle" style="max-width: 100px;  height: 100px;" src="https://scontent.fdac4-1.fna.fbcdn.net/v/t39.30808-6/294216830_125480966855901_2790954167761797616_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeHU1nPfZ9GVy5nNzwzvnH9ANc6baI6neiQ1zptojqd6JBbAS-b3reAaEv42MheX-naksq1JsfG2pM4axMvCz0uC&_nc_ohc=N7SfbbEFRtwAX84IyZs&_nc_zt=23&_nc_ht=scontent.fdac4-1.fna&oh=00_AT-h3749CXx9IQ5DRULJG86vzEqKnKiedhN3-27FcgsHpQ&oe=62F6A1A8" alt="">
+                                 <h1 >Nizam Ahmmad</h1>
+                                 <h5>Web Developer</h5>
+                                 <p class="lead">
+                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, enim sunt, voluptatum totam voluptatem asperiores.
+                                 </p>
+                             </div>
+                          </div>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="col-md-6 mt-4 mt-md-0">
+                     <img class="rounded office-img" src="https://images.pexels.com/photos/7974/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600" alt="">
+                 </div>
+             </div>
+             <hr>
+             <div class="row" id="my-skill">
+                 <div class="col-md-6">
+                    <div class="card">
+                     <div class="h1 myskill text-center">
+                 <span>My Skill</span>
+            </div>
+                 <div class="card-body text-center pb-0">
+                     <p class="lead">
+                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, maiores totam. Aperiam est voluptatibus fuga mollitia, alias, laudantium natus quis in, adipisci doloribus iste culpa temporibus facere quasi. Asperiores, ipsa.
+                     </p>
+                 </div>
+                 <div class="container">
+                     <div class="container text-center">
+                       <a href="#"><i class="p-4 fa-brands fa-facebook"></i></a>
+                       <a href="#"><i class="p-4 fa-brands fa-twitter"></i></a>  
+                       <a href="#"><i class="fa-brands fa-linkedin p-4"></i></a>    
+                     </div>
+                 </div>
+             </div>
+                 </div>
+                 <div class="col-md-6 pt-4 pt-md-0">
+                   <div class="">
+                      <span class="html">Html</span><span class="float-end skill-parcentace">85%</span>
+                    </div>
+                     <div class="progress">
+                         <div class="progress-bar bg-primary" role="progressbar" style="width: 85%"></div>
+                     </div>
+                     <div class="pt-3">
+                         <span class="html">CSS</span><span class="float-end skill-parcentace">90%</span>
+                     </div>
+                     <div class="progress">
+                         <div class="progress-bar bg-info" role="progressbar" style="width: 90%"></div>
+                     </div>
+                     <div class="pt-3">
+                         <span class="html">SASS</span><span class="float-end skill-parcentace">70%</span>
+                     </div>
+                     <div class="progress">
+                         <div class="progress-bar bg-warning" role="progressbar" style="width: 70%"></div>
+                     </div>
+                     <div class="pt-3">
+                         <span class="html">Bootstrap</span><span class="float-end skill-parcentace">80%</span>
+                     </div>
+                     <div class="progress">
+                         <div class="progress-bar bg-danger" role="progressbar" style="width: 80%"></div>
+                     </div>
+                     <div class="pt-3">
+                         <span class="html">Javascript</span><span class="float-end skill-parcentace">20%</span>
+                     </div>
+                     <div class="progress">
+                         <div class="progress-bar bg-primary" role="progressbar" style="width: 20%"></div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </section>
+ <!---Service offer-->
+ <div id="service-section">
+     <div class="">
+         <div class="bg-light pt-4">
+             <div class="container">
+                 <h3 class="service text-center">Service offer</h3>
+             <div class="row  d-flex justify-content-center">
+                 <div class="col-md-9">
+                    <p class="lead text-center">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam officiis deleniti, praesentium dolorum necessitatibus similique, dolor debitis? Deserunt ut, ipsam?
+                     </p>
+                 </div>
+             </div>
+          </div>
+         </div>
+        <div class="container py-4 ">
+             <div class="row">
+                 <div class="col-sm-6 col-md-3">
+                    <div class="card text-center ">
+                        <div class="card-body">
+                            <a href="#"><i class=" servicecol fa-solid fa-desktop"></i></a>
+                            <h2 class="services-offer">Web Design</h2>
+                            <p class="small-p">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis voluptates, numquam repellat culpa nisi, delectus?
+                            </p>
+                        </div>
+                    </div> 
+                 </div>
+                 <div class="col-sm-6 col-md-3">
+                      <div class="card text-center">
+                        <div class="card-body">
+                            <a href="#"><i class="text-info fa-brands fa-accusoft servicecol"></i></a>
+                            <h2 class="services-offer">responsive website</h2>
+                            <p class="small-p pt-0">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis voluptates,
+                                Lorem ipsum dolor.
+                            </p>
+                        </div>
+                    </div>
+                 </div>
+                 <div class="col-sm-6 col-md-3 mt-4 mt-md-0">
+                      <div class="card text-center">
+                        <div class="card-body">
+                            <a href="#"><i class="text-warning fa-brands fa-wordpress servicecol"></i></a>
+                            <h2 class="services-offer">wordpress</h2>
+                            <p class="small-p">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis voluptates, numquam repellat culpa nisi, delectus?
+                            </p>
+                        </div>
+                    </div>
+                 </div>
+                 <div class="col-sm-6 col-md-3 mt-4 mt-md-0">
+                      <div class="card text-center">
+                        <div class="card-body">
+                            <a href="#"> <i class="text-success fa-brands fa-angellist servicecol"></i></a>
+                            <h2 class="services-offer">Web developer</h2>
+                            <p class="small-p">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis voluptates, numquam repellat culpa nisi, delectus?
+                            </p>
+                        </div>
+                    </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </div>
+ <div id="photo-section" class="pb-5 bg-light">
+        <div class="photo-section py-3">
+             <div class="container">
+                 <h2 class="photo text-center">
+               PHOTO gallery
+               </h2>
+               <p class="lead-bangla text-center"> Cheak out our Photo</p> 
+             </div>
+       </div>
+         <div class="container mt-4">
+           <div class="row" uk-lightbox>
+                 <div class="col-md-4 photo-gallery">
+                    <a class="" href="https://scontent.fdac4-2.fna.fbcdn.net/v/t39.30808-6/293031209_123943477009650_1069000032934416123_n.jpg?stp=dst-jpg_s960x960&_nc_cat=108&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeFIINIio7KF1lgJSfrBetu5VUIrfog9JJhVQit-iD0kmCI-uGmJByqxTTe-iTb66DWR5D_wfg8JiaHIGuoOFJYT&_nc_ohc=X0HbEwIP7scAX-zqivS&_nc_zt=23&_nc_ht=scontent.fdac4-2.fna&oh=00_AT_NQ7z693e_SN64MAZZphg50n2n8z-r2Wh0DAH_XM0rig&oe=62F60AAC"><img class="nizamphoto"  src="https://scontent.fdac4-2.fna.fbcdn.net/v/t39.30808-6/293031209_123943477009650_1069000032934416123_n.jpg?stp=dst-jpg_s960x960&_nc_cat=108&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeFIINIio7KF1lgJSfrBetu5VUIrfog9JJhVQit-iD0kmCI-uGmJByqxTTe-iTb66DWR5D_wfg8JiaHIGuoOFJYT&_nc_ohc=X0HbEwIP7scAX-zqivS&_nc_zt=23&_nc_ht=scontent.fdac4-2.fna&oh=00_AT_NQ7z693e_SN64MAZZphg50n2n8z-r2Wh0DAH_XM0rig&oe=62F60AAC" alt=""></a>
+                 </div>
+                 <div class="col-md-4 my-4 my-md-0 photo-gallery">
+                     <a href="https://images.pexels.com/photos/935743/pexels-photo-935743.jpeg?cs=srgb&dl=pexels-andrea-piacquadio-935743.jpg&fm=jpg"> <img class="nizamphoto"  src="https://images.pexels.com/photos/935743/pexels-photo-935743.jpeg?cs=srgb&dl=pexels-andrea-piacquadio-935743.jpg&fm=jpg" alt=""></a>
+                 </div>
+                <div class="col-md-4 photo-gallery">
+                    <a href="https://images.pexels.com/photos/450035/pexels-photo-450035.jpeg?cs=srgb&dl=pexels-mateusz-dach-450035.jpg&fm=jpg" ><img class="nizamphoto"  src="https://images.pexels.com/photos/450035/pexels-photo-450035.jpeg?cs=srgb&dl=pexels-mateusz-dach-450035.jpg&fm=jpg" alt="">
+                </a>
+           </div>
+         </div>
+         <div class="row" uk-lightbox>
+             <div class="col-md-4 mt-4 photo-gallery">
+               <a href="https://images.pexels.com/photos/1438081/pexels-photo-1438081.jpeg?cs=srgb&dl=pexels-buro-millennial-1438081.jpg&fm=jpg">
+                   <img class="nizamphoto" src="https://images.pexels.com/photos/1438081/pexels-photo-1438081.jpeg?cs=srgb&dl=pexels-buro-millennial-1438081.jpg&fm=jpg" alt="">
+               </a>
+             </div>
+             <div class="col-md-4 mt-4 photo-gallery">
+                <a href="https://images.pexels.com/photos/842548/pexels-photo-842548.jpeg?cs=srgb&dl=pexels-andrea-piacquadio-842548.jpg&fm=jpg" >
+                     <img class="nizamphoto"  src="https://images.pexels.com/photos/842548/pexels-photo-842548.jpeg?cs=srgb&dl=pexels-andrea-piacquadio-842548.jpg&fm=jpg" alt="">
+                </a>
+            </div>
+             <div class="col-md-4 mt-4 photo-gallery">
+               <a href="https://scontent.fdac4-1.fna.fbcdn.net/v/t39.30808-6/294216830_125480966855901_2790954167761797616_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeHU1nPfZ9GVy5nNzwzvnH9ANc6baI6neiQ1zptojqd6JBbAS-b3reAaEv42MheX-naksq1JsfG2pM4axMvCz0uC&_nc_ohc=N7SfbbEFRtwAX84IyZs&_nc_zt=23&_nc_ht=scontent.fdac4-1.fna&oh=00_AT-h3749CXx9IQ5DRULJG86vzEqKnKiedhN3-27FcgsHpQ&oe=62F6A1A8" >
+                <img class="nizamphoto"  src="https://scontent.fdac4-1.fna.fbcdn.net/v/t39.30808-6/294216830_125480966855901_2790954167761797616_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeHU1nPfZ9GVy5nNzwzvnH9ANc6baI6neiQ1zptojqd6JBbAS-b3reAaEv42MheX-naksq1JsfG2pM4axMvCz0uC&_nc_ohc=N7SfbbEFRtwAX84IyZs&_nc_zt=23&_nc_ht=scontent.fdac4-1.fna&oh=00_AT-h3749CXx9IQ5DRULJG86vzEqKnKiedhN3-27FcgsHpQ&oe=62F6A1A8" alt="">
+             </a>
+            </div>
+         </div>
+     </div>
+ </div>
+ <div class="video-section">
+     <div class="container">
+         <div class="row video-row py-3">
+             <div class="col-md-6">
+                 <div class="card card-video mb-3 mb-md-0">
+                     <div class="card-body">
+                         <h1 class="freelancing">
+                             Don't you Know anything about Web development
+                         </h1>
+                         <p class="lead">
+                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quas repudiandae rerum cupiditate modi in alias nulla minus cumque ratione?
+                         </p>
+                             <a href="#video-player" class="video-player btn btn-primary">Click Here See this Video</a>
+                     </div>
+                 </div>
+             </div>
+                  <div class="col-md-6 text-center ">
+                        <div class="youtube-card">
+                            <div class="overly" >
+                            <div class="py-5">
+                                <div class="pt-5 pb-5" uk-lightbox>
+                            <a  id="video-player" href="https://youtu.be/DB3YrZIObyQ"> <i class="fa-brands fa-youtube youtube1" ></i></a>
+                      <h1 class="text-light pb-2">Web Development Course</h1>
+                    </div>
+                   </div>
+                  </div>
+                </div>
+              </div>
+         </div>
+     </div>
+ </div>
+ <section id="contact-section" class="pb-4">
+     <div class="background">
+         <div class="container">
+             <div class="row">
+                 <div class="col-md-8">
+                     <div class="display-4 mt-4 contactme">
+                         Contact Me
+                     </div>
+                     <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, ut!</p>
+                     <form action="" class="mt-5">
+                         <div class="input-group">
+                             <i class="input-group-text fa-solid fa-user"></i>
+                             <input type="text" placeholder="Enter Name" class="form-control">
+                         </div>
+                         <div class="input-group my-3">
+                             <i class="input-group-text fa-solid fa-envelope"></i>
+                             <input type="email" placeholder="Enter Email" class="form-control">
+                         </div>
+                         <div class="input-group">
+                           <div class="input-group-text"><i class="fa-solid fa-pen"></i></div>
+                           <textarea name="inbox" id="" cols="30" rows="5" class="form-control"></textarea>
+                        </div>
+                        <a href="#">
+                            <button class="btn form-control mt-3 contact-button">
+                            Submit
+                        </button>
+                        </a>
+                     </form>
+                 </div>
+                 <div class="col-md-4 text-center">
+                     <img width="300" height="300" src="https://images.pexels.com/photos/46924/pexels-photo-46924.jpeg?cs=srgb&dl=pexels-anton-46924.jpg&fm=jpg" alt="" class="rounded-circle mt-md-5 py-5">
+                 </div>
+             </div>
+         </div>
+     </div>
+ </section>
+ <footer id="footer" class="py-5">
+     <div class="container">
+       <div class="row">
+         <div class="col-md-6">
+             <h1 class="text-light"> Need Help?</h1>
+        
+             <div class="d-flex my-2 my-md-3">
+                 <i class="fa-solid fa-phone text-primary"></i>
+                  <h5 class="text-light ms-3">+8801763935676</h5>
+             </div>
+             <div class="d-flex">
+                 <i class="fa-solid fa-envelope text-primary"> </i>
+                 <h5 class="text-light ms-3">
+                     Nizamrana15@gmail.com
+                 </h5>
+             </div>
+         </div>
+         <div class="col-md-6 mt-4 mt-md-0">
+             <h1 class="follow-me d-inline text-light">
+                 Follow me
+             </h1>
+             <div class="d-flex">
+                 <a href="#"><i class=" text-primary footer-icon fa-brands fa-facebook-f"></i></a>
+                 <a href="#"><i class=" text-primary footer-icon fa-brands fa-youtube"></i></a>
+                 <a href="#"><i class=" text-primary footer-icon fa-brands fa-twitter"></i></a>
+                 <a href="#"><i class=" text-primary footer-icon fa-brands fa-instagram"></i></a>
+                 <a href="#"><i class=" text-primary footer-icon fa-brands fa-whatsapp"></i></a>
+             </div>
+             <div class="d-flex mt-3">
+                 <input type="email" placeholder="Enter your email" class="form-control">
+                 <input type="submit" value="Send" class="btn btn-primary ms-3">
+             </div>
+         </div>
+        </div>
+     </div>
+ </footer>
+ <div class="footer py-3">
+     <div class="text-center">
+         <h5 class="text-light">
+             Copyright &copy; 2022
+         </h5>
+         <h3 class="text-light"> Design By: <a href="#" class="designer-nizam">Nizam Ahmmad</a></h3>
+     </div>
+ </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.1/dist/js/uikit.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.1/dist/js/uikit-icons.min.js"></script>
+</body>
